@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+  madie-fhir-service:
+    build:
+      context: .
+    environment:
+      LOG_LEVEL: ${LOG_LEVEL}
+      OKTA_ISSUER: ${OKTA_ISSUER}
+      OKTA_AUDIENCE: ${OKTA_AUDIENCE}
+    volumes:
+      - ./:/app:cached
+      - ~/.m2:/root/.m2:consistent
+    ports:
+      - "8088:8088"
+
+
+ 
+
+
+ 
