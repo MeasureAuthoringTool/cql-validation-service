@@ -15,7 +15,7 @@
 
   <properties>
     <java.version>17</java.version>
-    <madiejavamodels.version>0.5.8-SNAPSHOT</madiejavamodels.version>
+    <madiejavamodels.version>0.5.9-SNAPSHOT</madiejavamodels.version>
     <maven.compiler.source>${java.version}</maven.compiler.source>
     <maven.compiler.target>${java.version}</maven.compiler.target>
     <mvn.checkstyle.file>madie-checkstyle.xml</mvn.checkstyle.file>
