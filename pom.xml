@@ -27,6 +27,18 @@
     <springdoc.version>1.7.0</springdoc.version>
   </properties>
 
+	<repositories>
+		<repository>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<id>github</id>
+			<name>MADiE java models</name>
+			<url>
+				https://maven.pkg.github.com/measureauthoringtool/madie-java-models</url>
+		</repository>
+	</repositories>
+
   <dependencies>
     <dependency>
       <groupId>org.springframework.boot</groupId>
